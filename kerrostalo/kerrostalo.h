@@ -18,9 +18,9 @@ public:
     void maaritaAsunnot();
 
 private:
-    Katutaso eka;
-    Kerros toka;
-    Kerros kolmas;
+    Katutaso * p_eka;
+    Kerros * p_toka;
+    Kerros *p_kolmas;
 };
 
 #endif // KERROSTALO_H
